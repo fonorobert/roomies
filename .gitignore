@@ -1,0 +1,5 @@
+#Python stuff
+*.pyc
+
+#Sublime text project files
+*.sublime*
