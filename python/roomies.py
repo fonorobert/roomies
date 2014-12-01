@@ -12,10 +12,10 @@ class Balance():
                 self.balance[p] = 0
 
         #Main calculation loop
-        for cost in data:
-            amnt = cost['amount']
-            payer = cost['payer']
-            owner = cost['owner']
+        for expense in data:
+            amnt = expense['amount']
+            payer = expense['payer']
+            owner = expense['owner']
 
             if owner in self.empty:
                 for person in self.balance.keys():
