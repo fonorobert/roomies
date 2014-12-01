@@ -3,6 +3,7 @@
 ##What is roomies?
 
 It's a multi-language module for calculating cost sharing for roommates (or any other situation where people are sharing costs).
+It can be included in any project.
 
 Currently supported languages:
 
@@ -12,6 +13,8 @@ Planned languages:
 
 - javascript
 - php
+
+Read usage howtos in the language folders.
 
 ##What's it for?
 Imagine this scenario:
@@ -66,3 +69,7 @@ Joe buys a big case of can coke (common) for $6
 
 **New balance:**
 Jill: -$6, John: $5, Joe: $1
+
+##Licensing
+
+roomies is licensed under the MIT license. If you wish to use it in a project that requires a different license, [get in touch with me](http://fonorobert.me/about).
